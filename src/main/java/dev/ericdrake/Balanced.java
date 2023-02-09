@@ -9,7 +9,7 @@ public class Balanced {
         return balancedChars(evalString, '{', '}');
     }
 
-    public static boolean balanacedSquareBrackets(String evalString){
+    public static boolean balancedSquareBrackets(String evalString){
         return balancedChars(evalString, '[', ']');
     }
 
