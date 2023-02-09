@@ -11,6 +11,7 @@ public class Main {
         String evalString2 = "<a<b>c>d(e(f)g)h{i{j}k}l[m[n]o]p";
         System.out.println(Balanced.balancedParenthesisAndBrackets(evalString2));
 
-
+        String[] evalArray = new String[]{"what", "are", "you", "doing"};
+        System.out.println(Recursion.recursiveSearch("booger", evalArray, 0));
     }
 }
