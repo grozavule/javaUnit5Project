@@ -51,6 +51,7 @@ public class BalancedTest {
     @Test
     public void testBalancedCurlyBraces_returnsTrueWhenProvidedAStringWithoutCurlyBraces(){
         String evalString = "no-curly-braces(())()(([][][][][]";
+        assertTrue(Balanced.balancedCurlyBraces(evalString));
     }
 
     @Test

@@ -46,6 +46,16 @@ public class Balanced {
                 closingAngleCount++;
             }
         }
+        System.out.println("New Test");
+        System.out.println("Opening Parenthesis: " + openingParenthesisCount);
+        System.out.println("Closing Parenthesis: " + closingParenthesisCount);
+        System.out.println("Opening Curly: " + openingCurlyCount);
+        System.out.println("Closing Curly: " + closingCurlyCount);
+        System.out.println("Opening Square: " + openingSquareCount);
+        System.out.println("Closing Square: " + closingSquareCount);
+        System.out.println("Opening Angle: " + openingAngleCount);
+        System.out.println("Closing Angle: " + closingAngleCount);
+        System.out.println("");
         return (openingParenthesisCount == closingParenthesisCount) && (openingCurlyCount == closingCurlyCount)
                 && (openingSquareCount == closingSquareCount) && (openingAngleCount == closingAngleCount);
     }
